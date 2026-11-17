@@ -1,0 +1,19 @@
+{
+ "csnn": {
+  "in_syn": 1764.0,
+  "c1_syn": 102815.352,
+  "c2_syn": 27828.928,
+  "c3_syn": 485.0485,
+  "total_synaptic_ops": 132893.3285,
+  "neuron_state_updates": 124160,
+  "dense_equivalent_MACs": 15159040
+ },
+ "fcsnn": {
+  "in_syn": 1568.0,
+  "out_syn": 377.539,
+  "total_synaptic_ops": 1945.539,
+  "neuron_state_updates": 1300,
+  "dense_equivalent_MACs": 657920
+ },
+ "cnn_MACs": 2179456
+}

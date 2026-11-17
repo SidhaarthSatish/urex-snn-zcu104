@@ -1,0 +1,11 @@
+{
+  "sensor": {"width": 1280, "height": 720},
+  "hot_pixels": [[323, 94], [1254, 710], [332, 591], [204, 426], [1241, 333], [942, 176], [521, 252]],
+  "anf": {"enabled": true, "threshold_us": 150000, "radius_px": 3, "neighbours": 28, "include_center": false},
+  "patch": {"R": 16, "window_us": 250000, "bins": 10, "polarities": 2},
+  "classifier": {
+    "backend": "snn",
+    "snn": {"weights": "weights/snn_int8.json", "leak_num": 205, "leak_shift": 8, "hidden": 128},
+    "cnn": {"onnx": "weights/cnn_fp32.onnx", "note": "backup path, runs on the DPU via Vitis AI"}
+  }
+}

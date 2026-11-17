@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.Xil/
+zcu104_framework/vivado/build/
+zcu104_framework/vivado/build2/
+zcu104_framework/vivado/dbgproj*/
+zcu104_framework/vivado/*.jou
+zcu104_framework/vivado/vivado*.log
+zcu104_framework/vivado/urex_link

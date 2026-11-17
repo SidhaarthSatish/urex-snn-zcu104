@@ -1,0 +1,5 @@
+patches 1511
+words 30555
+weight_writes 16769
+max_events 670
+ACC_TH 306
